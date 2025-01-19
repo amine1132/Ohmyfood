@@ -264,7 +264,6 @@ header .logo {
 @media screen and (min-width: 1900px) {
   .menus__cartes {
     flex-wrap: wrap;
-    max-width: 1400px;
   }
 }
 
