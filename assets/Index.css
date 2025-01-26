@@ -236,17 +236,16 @@ header .logo {
   }
 }
 
-.menus_restaurant {
-  background: #f2f2f2;
+#menus_restaurant {
+  background: #f6f6f6;
   display: flex;
-  flex: 1;
   flex-direction: column;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
-.menus_restaurant h2 {
+#menus_restaurant h2 {
   padding-top: 45px;
 }
-.menus_restaurant p {
+#menus_restaurant p {
   font-size: 1.1rem;
 }
 @media screen and (min-width: 768px) {
@@ -439,6 +438,9 @@ header i {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+  }
+  #menus_restaurant {
+    padding-bottom: 30px;
   }
   .main__menu {
     width: 80%;
