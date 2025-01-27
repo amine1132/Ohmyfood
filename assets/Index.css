@@ -60,7 +60,7 @@ html {
 
 h1 {
   font-weight: 900;
-  font-size: 1.6rem;
+  font-size: 36px;
   padding: 20px 40px;
 }
 
@@ -138,7 +138,7 @@ header .logo {
   text-align: center;
 }
 .slogan p {
-  font-size: 1.1em;
+  font-size: 18px;
 }
 .slogan__btn {
   background: linear-gradient(
@@ -169,6 +169,9 @@ header .logo {
 
 #action {
   width: 100%;
+}
+#action p {
+  font-weight: 500;
 }
 
 .action h2 {
@@ -235,6 +238,16 @@ header .logo {
     align-items: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .menus__cartes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
 
 #menus_restaurant {
   background: #f6f6f6;
@@ -269,7 +282,7 @@ header .logo {
 
 .card {
   border-radius: 20px;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 0px 4.01px 15.04px 0px #0000001a;
   margin: 10px;
   position: relative;
   background: #fff;
@@ -284,6 +297,12 @@ header .logo {
     max-width: 45vw;
     padding: 0;
     margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .full__menu h3 {
+    padding-left: 15px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -309,7 +328,7 @@ header .logo {
   top: 5%;
   font-weight: bold;
   font-size: 14px;
-  width: 25%;
+  width: 21%;
   text-align: center;
   animation: clignote 2s linear infinite;
 }
@@ -347,7 +366,7 @@ header .logo {
 }
 .card figure:hover {
   background-blend-mode: lighten;
-  box-shadow: 2px 6px 20px #999999;
+  box-shadow: 4px 4px 6px #aaa;
   border-radius: 20px;
 }
 
@@ -439,6 +458,7 @@ header i {
     align-items: center;
     flex-direction: column;
   }
+
   #menus_restaurant {
     padding-bottom: 30px;
   }
@@ -534,7 +554,7 @@ header i {
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 0px 4.01px 15.04px 0px #0000001a;
   position: relative;
   cursor: pointer;
   white-space: nowrap;
@@ -544,16 +564,16 @@ header i {
 }
 .meals h4 {
   font-family: "Roboto";
-  font-size: 1rem;
+  font-size: 18px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .meals p {
-  font-size: 0.8rem;
+  font-size: 15px;
 }
 .meals:hover {
   padding-right: 75px;
-  box-shadow: 5px 5px 5px #000;
+  box-shadow: 4px 4px 6px #aaa;
 }
 .meals:hover .cross {
   opacity: 1;
@@ -587,8 +607,8 @@ header i {
 .full__menu h3 {
   text-transform: uppercase;
   font-weight: lighter;
-  padding-left: 15px;
   margin-top: 10px;
+  font-size: 16px;
 }
 
 .cross {
